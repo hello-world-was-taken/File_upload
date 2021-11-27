@@ -7,4 +7,4 @@ from .models import UserUpload
 class UploadListView(ListView):
     model = UserUpload
     template_name = 'home.html'
-    context_object_name = 'upload'
+    context_object_name = 'uploads'
